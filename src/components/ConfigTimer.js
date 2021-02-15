@@ -1,9 +1,37 @@
 import React from "react";
-import { Col, Label, Row } from 'reactstrap'
+import { useSelector, useDispatch } from "react-redux";
+import {
+  breakDecrementAction,
+  breakIncrementAction,
+  sessionDecrementAction,
+  sessionIncrementAction,
+} from "../redux/clockSlice";
+import { Col, Label, Row } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faMinus, faPlus, } from "@fortawesome/free-solid-svg-icons";
+import { faMinus, faPlus } from "@fortawesome/free-solid-svg-icons";
 
 export const ConfigTimer = (props) => {
+  const breakLength = useSelector((state) => state.clock.breakLength);
+  const sessionLength = useSelector((state) => state.clock.sessionLength);
+
+  const dispatch = useDispatch();
+
+  const breakDecrement = () => {
+    dispatch(breakDecrementAction());
+  };
+
+  const breakIncrement = () => {
+    dispatch(breakIncrementAction());
+  };
+
+  const sessionDecrement = () => {
+    dispatch(sessionDecrementAction());
+  };
+
+  const sessionIncrement = () => {
+    dispatch(sessionIncrementAction());
+  };
+
   return (
     <section className="config-timer">
       <Row className="justify-content-beetwen">
@@ -20,15 +48,15 @@ export const ConfigTimer = (props) => {
             <button
               id="break-decrement"
               className="config-timer-btn"
-              onClick={props.breakDecrement}
+              onClick={breakDecrement}
             >
               <FontAwesomeIcon icon={faMinus} />
             </button>
-            <div id="break-length">{props.breakLength}</div>
+            <div id="break-length">{breakLength}</div>
             <button
               id="break-increment"
               className="config-timer-btn"
-              onClick={props.breakIncrement}
+              onClick={breakIncrement}
             >
               <FontAwesomeIcon icon={faPlus} />
             </button>
@@ -36,11 +64,11 @@ export const ConfigTimer = (props) => {
         </Col>
         <Col>
           <Row className="align-items-center justify-content-center">
-            <button id="session-decrement" onClick={props.sessionDecrement}>
+            <button id="session-decrement" onClick={sessionDecrement}>
               <FontAwesomeIcon icon={faMinus} />
             </button>
-            <div id="session-length">{props.sessionLength}</div>
-            <button id="session-increment" onClick={props.sessionIncrement}>
+            <div id="session-length">{sessionLength}</div>
+            <button id="session-increment" onClick={sessionIncrement}>
               <FontAwesomeIcon icon={faPlus} />
             </button>
           </Row>
