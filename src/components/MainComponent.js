@@ -63,7 +63,7 @@ export const Main = () => {
     <div className="main">
       <Container className="timer">
         <Row className="justify-content-center">
-          <h1 className="title">25 + 5 Clock</h1>
+          <h1 className="title">Pomodoro Clock</h1>
         </Row>
         <div className="display-and-control-timer">
           <DisplayTimer />
