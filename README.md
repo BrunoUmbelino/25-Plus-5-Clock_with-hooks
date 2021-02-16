@@ -9,3 +9,7 @@ This project is the solution to the challenge **Build at 25 + 5 Clock**, propose
 - Redux
 - Bootstrap
 - SASS
+- JavaScript ES6
+- HTML 5
+- CSS 3
+
