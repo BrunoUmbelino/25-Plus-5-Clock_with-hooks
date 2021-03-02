@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Pomodoro-Clock/static/css/main.3d7e3f75.chunk.css",
+    "main.css": "/Pomodoro-Clock/static/css/main.158a8e8f.chunk.css",
     "main.js": "/Pomodoro-Clock/static/js/main.5aa26bb8.chunk.js",
     "main.js.map": "/Pomodoro-Clock/static/js/main.5aa26bb8.chunk.js.map",
     "runtime-main.js": "/Pomodoro-Clock/static/js/runtime-main.02f5bc59.js",
@@ -10,14 +10,14 @@
     "static/js/2.9d50aba4.chunk.js.map": "/Pomodoro-Clock/static/js/2.9d50aba4.chunk.js.map",
     "index.html": "/Pomodoro-Clock/index.html",
     "static/css/2.150d169a.chunk.css.map": "/Pomodoro-Clock/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.3d7e3f75.chunk.css.map": "/Pomodoro-Clock/static/css/main.3d7e3f75.chunk.css.map",
+    "static/css/main.158a8e8f.chunk.css.map": "/Pomodoro-Clock/static/css/main.158a8e8f.chunk.css.map",
     "static/js/2.9d50aba4.chunk.js.LICENSE.txt": "/Pomodoro-Clock/static/js/2.9d50aba4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.02f5bc59.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.9d50aba4.chunk.js",
-    "static/css/main.3d7e3f75.chunk.css",
+    "static/css/main.158a8e8f.chunk.css",
     "static/js/main.5aa26bb8.chunk.js"
   ]
 }
