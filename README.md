@@ -1,19 +1,19 @@
 # Pomodoro Clock 
 Link: https://brunoumbelino.github.io/Pomodoro-Clock/
+
 ### Description
-**Pomodoro clock** is a simple timer. Its objective is to assist in concentration at work and studies using the Pomodoro technique. 
-### Inspiration
-This project is the solution to the challenge **Build at 25 + 5 Clock**, proposed by the teaching platform [FreeCodeCamp](https://www.freecodecamp.org/) in the certification of Front End Development Libraries. 
+**Pomodoro Clock** is a simple, beautiful and responsive chronometer, it applies the pomodoro concentration technique that increases your productivity at work or in studies. The project was developed as a solution to the ‘Build at 25 + 5 Clock’ challenge proposed by the [FreeCodeCamp](https://www.freecodecamp.org/) community in Front End Development Libraries certification, in the upper left part of the screen it is possible to use the test suite proposed by challenge. 
+
 ### Technologies
-- React (functional components)
+- React (Functional Components, Hooks)
 - Redux (Toolkit)
-- Bootstrap
+- Bootstrap (Reactstrap)
 - SASS
 - JavaScript ES6
 - HTML 5
 - CSS 3
-### Tests proposed by the challenge 
 
+### Tests proposed by the challenge 
 ##### Content
     1. I can see an element with id="break-label" that contains a string (e.g. “Break Length”).
     2. I can see an element with id="session-label" that contains a string (e.g. "Session Length”).
@@ -25,7 +25,6 @@ This project is the solution to the challenge **Build at 25 + 5 Clock**, propose
     8. I can see an element with corresponding id="time-left". NOTE: Paused or running, the value in this field should always be displayed in mm:ss format (i.e. 25:00).
     9. I can see a clickable element with corresponding id="start_stop".
     10. I can see a clickable element with corresponding id="reset".
-
 ##### Timer
     1. When I click the element with the id of "reset", any running timer should be stopped, the value within id="break-length" should return to 5, the value within id="session-length" should return to 25, and the element with id="time-left" should reset to it's default state.
     2. When I click the element with the id of "break-decrement", the value within id="break-length" decrements by a value of 1, and I can see the updated value.
@@ -42,7 +41,6 @@ This project is the solution to the challenge **Build at 25 + 5 Clock**, propose
     13. When a session countdown reaches zero (NOTE: timer MUST reach 00:00), a new break countdown should begin, counting down from the value currently displayed in the id="break-length" element.
     14. When a break countdown reaches zero (NOTE: timer MUST reach 00:00), and a new countdown begins, the element with the id of "timer-label" should display a string indicating a session has begun.
     15. When a break countdown reaches zero (NOTE: timer MUST reach 00:00), a new session countdown should begin, counting down from the value currently displayed in the id="session-length" element.
-
 ##### Audio
     1. When a countdown reaches zero (NOTE: timer MUST reach 00:00), a sound indicating that time is up should play. This should utilize an HTML5 <audio> tag and have a corresponding id="beep".
     2. The audio element with id="beep" must be 1 second or longer.
