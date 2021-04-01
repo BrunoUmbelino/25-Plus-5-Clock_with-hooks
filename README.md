@@ -2,7 +2,7 @@
 Link: https://brunoumbelino.github.io/Pomodoro-Clock/
 
 ### Description
-**Pomodoro Clock** is a simple, beautiful and responsive chronometer, it applies the pomodoro concentration technique that increases your productivity at work or in studies. The project was developed as a solution to the ‘Build at 25 + 5 Clock’ challenge proposed by the [FreeCodeCamp](https://www.freecodecamp.org/) community in Front End Development Libraries certification, in the upper left part of the screen it is possible to use the test suite proposed by challenge. 
+**Pomodoro Clock** is a simple, beautiful and responsive chronometer, it applies the pomodoro concentration technique that increases your productivity at work or in studies. The project was developed as a solution to the **‘Build at 25 + 5 Clock’** challenge proposed by the [FreeCodeCamp](https://www.freecodecamp.org/) community in Front End Development Libraries certification, in the upper left part of the screen it is possible to use the test suite proposed by challenge. 
 
 ### Technologies
 - React (Functional Components, Hooks)
