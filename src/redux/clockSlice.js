@@ -46,14 +46,14 @@ const clockSlice = createSlice({
     decreaseTimerAction(state) {
       state.timer += -1;
     },
-    setTimerEqualBreakAction(state){
-      state.timer = state.breakLength * 60
+    setTimerEqualBreakAction(state) {
+      state.timer = state.breakLength * 60;
     },
     setTimerEqualSessionAction(state) {
-      state.timer = state.sessionLength * 60
+      state.timer = state.sessionLength * 60;
     },
     toggleInBreakAction(state) {
-      state.inBreak = !state.inBreak
+      state.inBreak = !state.inBreak;
     },
     resetAction() {
       return initialState;
